@@ -1,0 +1,2 @@
+defmodule Chattalot do
+end
