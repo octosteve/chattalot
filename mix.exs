@@ -14,7 +14,8 @@ defmodule Chattalot.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :slack]]
+    [applications: [:logger, :slack],
+     mod: {Chattalot, []}]
   end
 
   # Dependencies can be Hex packages:
